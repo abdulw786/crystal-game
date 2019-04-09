@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom:3px;
+    border-top: 2px solid #470808;
+    font-size: 25px;
+    font-weight: bold;
+  }
+    
+
+.row{
+  text-align: center;
+  width:1000px;
+  height:600px;
+}
+.col {
+  border: solid 5px rebeccapurple;
+  color: green;
+  font-size: 20px;
+  }
+  
+  
+  #first1, #second2, #third3, #fourth4 {
+  border: solid 5px rgb(255, 0, 0);
+  width:100px;
+  height: 100PX;
+
+
+}
+#instruction{
+  background: orange; 
+}
+#first1,#second2,#third3,#fourth4{
+  margin: 50px 20px 20px 50px;
+}
