@@ -19,7 +19,7 @@
     <h1>Crystal Game!</h1>
     <div class="container">
         <div class="row">
-            <div class="col 6" id="instruction">
+            <div class="col-sm-12 col-lg-6" id="instruction">
                 <h2> Crystal Collector</h2>
                 </br>
                 <p>You will be given a random number at the start of the game. </p>
@@ -30,15 +30,13 @@
                 <p>You will win the game by matching your total score to random number, you lose the gmae if your total
                     score goes above the random number.</p>
             </div>
-            <div class="col 6" id="game">
-                <div class="col" id="crystals">
-                    <h2>Click On One Of The Crystal To Get Start </h2>
-                    <hr>
-                    <img src="assets/images/images1.jpeg" id="first1">
-                    <img src="assets/images/image2.jpeg" id="second2">
-                    <img src="assets/images/images3.jpeg" id="third3">
-                    <img src="assets/images/image4.jpeg" id="fourth4">
-                </div>
+            <div class="col-sm-12 col-lg-6" id="game">
+                <h2>Click On Any Crystal To Get Start </h2>
+                <div class="col">
+                    <img src="assets/images/images1.jpeg" class="crystals">
+                    <img src="assets/images/image2.jpeg" class="crystals">
+                    <img src="assets/images/images3.jpeg" class="crystals">
+                    <img src="assets/images/image4.jpeg" class="crystals">
                 <div class="col">
                     <div class="winsAndLosses">
                         <h2>Wins :
@@ -58,10 +56,10 @@
                         <span id="RandomNumber"></span>
                     </h2>
                     <div class="Numbertoget"></div>
-                </div>
             </div>
         </div>
-        <script src="assets/javascript/game.js"></script>
+    </div>
+    <script src="assets/javascript/game.js"></script>
 </body>
 
 </html>
