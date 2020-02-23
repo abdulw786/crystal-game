@@ -1,7 +1,7 @@
 # Crystal Game
 
 # Live Link
-* https://abdulw786.github.io/unit-4-game/
+* https://abdulw786.github.io/crystal-game/
 
 # Description on how to use the app
 You will be given a random "number to guess" at the start of the game.
